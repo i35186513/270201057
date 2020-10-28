@@ -7,4 +7,4 @@ elif lecture < 47 and gpa>= 2.0:
 elif lecture > 47 and gpa <2.0:
   print("not enough gpa.")
 else: 
-  print("GRADUATED")
+  print("GRADUATED!")
