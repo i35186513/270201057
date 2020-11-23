@@ -7,4 +7,4 @@ for sum in range(0,F):
   n1=n2
   n2 = n3
   print(n1)
-   
+  
