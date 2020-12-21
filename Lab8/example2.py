@@ -16,4 +16,3 @@ def print_primes_between(n,m):
 first_int = int(input("First integer : "))
 second_int = int(input("Second integer : "))
 print_primes_between(first_int,second_int)
-

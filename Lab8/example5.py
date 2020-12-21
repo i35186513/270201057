@@ -1,0 +1,1 @@
+print("yapamıyorum o yüzden labdan sonra çalışıp bu örneği kendim çözmeye çalışacağım ")
