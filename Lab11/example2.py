@@ -12,4 +12,4 @@ def binarysearch(a, lst):
       low = mid + 1 
   return -1
 
-print(binarysearch(10, [ 2, 3, 4, 10, 40 ]))
+print(binarysearch(5, [ 2, 3, 4, 10, 40 ]))

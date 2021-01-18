@@ -1,19 +1,13 @@
 def selectionsort(lst):
-  if len(lst)== 0:
-    lst = []
-  else:
-    for i in range(len(lst)-1):
-      minimum = i
-      for j in range(1,len(lst)):
-        if lst[i] > lst[j]:
-          minimum = j
-     
-      if minimum !=i:
-        temp = lst[i]
-        lst[i] = lst[minimum]
-        lst[minimum] = temp
-      
-    return lst
+ 
+  for bottom in range(len(lst)-1):
+    mp = bottom 
+    for i in range(bottom+1,len(lst)):
+      if lst[i] < lst[mp]:
+        mp = i      
+    lst[bottom], lst[mp] = lst[mp], lst[bottom]
 
-array = [13, 4, 9, 5, 3, 16, 12]
-print(selectionsort(array))
+lst = [13, 4, 9, 5, 3, 16, 12]
+print(selectionsort(lst))
+
+#lab örneğiyle aynı yazmış olduğumu düşünüyorum ama neden none çıktısını verior anlayamıyorum. 
